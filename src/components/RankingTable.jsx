@@ -33,6 +33,7 @@ const RankingTable = ({ ranking }) => {
               <th className="w-1/12 py-2">WR</th>
               <th className="w-1/12 py-2">Games</th>
               <th className="w-2/12 py-2">Equipo</th>
+              <th className="w-1/12 py-2">En partida</th>
             </tr>
           </thead>
           <tbody className="bg-gray-700">
@@ -84,6 +85,9 @@ const RankingTable = ({ ranking }) => {
                         className="inline-block w-8 h-8 mr-2"
                       />
                     </a>
+                  </td>
+                  <td className="py-2 text-center">
+                    {player.in_game ? 'Sí' : 'No'} {/* Nueva columna */}
                   </td>
                 </tr>
               ))
