@@ -1,0 +1,123 @@
+export const playersname = [
+    { name: 'Myrwn'},
+    { name: 'Elyoya'},
+    { name: 'Frescowy'},
+    { name: 'Supa'},
+    { name: 'Alvaro'},
+
+    { name: 'Broken Blade'},
+    { name: 'Yike'},
+    { name: 'Caps'},
+    { name: 'Hans Sama'},
+    { name: 'Mikyx'},
+
+    { name: 'Oscarinin'},
+    { name: 'Razork'},
+    { name: 'Humanoid'},
+    { name: 'Noah'},
+    { name: 'Jun'},
+
+    { name: 'Sniper'},
+    { name: 'River'},
+    { name: 'Quid'},
+    { name: 'Tomo'},
+    { name: 'Eyla'},
+
+    { name: 'Bwipo'},
+    { name: 'Inspired'},
+    { name: 'Quad'},
+    { name: 'Massu'},
+    { name: 'Busio'},
+
+    { name: 'Impact'},
+    { name: 'UmTi'},
+    { name: 'APA'},
+    { name: 'Yeon'},
+    { name: 'CoreJJ'},
+
+    { name: 'Bin'},
+    { name: 'Wei'},
+    { name: 'Knight'},
+    { name: 'Elk'},
+    { name: 'ON'},
+
+    { name: 'Xiaoyu'},
+    { name: 'Weiwei'},
+    { name: 'Scout'},
+    { name: 'GALA'},
+    { name: 'Hang'},
+
+    { name: '369'},
+    { name: 'Tian'},
+    { name: 'Creme'},
+    { name: 'JackeyLove'},
+    { name: 'Meiko'},
+
+    { name: 'Breathe'},
+    { name: 'Tarzan'},
+    { name: 'Xiaohu'},
+    { name: 'Light'},
+    { name: 'Crisp'},
+
+    { name: 'Kingen'},
+    { name: 'Lucid'},
+    { name: 'ShowMaker'},
+    { name: 'Aiming'},
+    { name: 'Moham'},
+
+    { name: 'Kiin'},
+    { name: 'Canyon'},
+    { name: 'Chovy'},
+    { name: 'Peyz'},
+    { name: 'Lehends'},
+
+    { name: 'Canna'},
+    { name: 'Oner'},
+    { name: 'Faker'},
+    { name: 'Gumayusi'},
+    { name: 'Keria'},
+
+    { name: 'Doran'},
+    { name: 'Peanut'},
+    { name: 'Zeka'},
+    { name: 'Viper'},
+    { name: 'Delight'},
+
+    { name: 'Evi'},
+    { name: 'Forest'},
+    { name: 'Dasher'},
+    { name: 'Marble'},
+    { name: 'Vsta'},
+
+    { name: 'Kiaya'},
+    { name: 'Levi'},
+    { name: 'Emo'},
+    { name: 'Easylove'},
+    { name: 'Elio'},
+
+    { name: 'Azhi'},
+    { name: 'JunJia'},
+    { name: 'Mapple'},
+    { name: 'Betty'},
+    { name: 'Woody'},
+
+    { name: 'Nanaue'},
+    { name: 'Gury'},
+    { name: 'Kati'},
+    { name: 'Shogun'},
+    { name: 'Bie'},
+
+    { name: 'Summit'},
+    { name: 'Oddie'},
+    { name: 'Keine'},
+    { name: 'Ceo'},
+    { name: 'Lyonz'},
+    
+    { name: 'Wizer'},
+    { name: 'Cariok'},
+    { name: 'diNquedo'},
+    { name: 'TitaN'},
+    { name: 'Kuri'},
+
+
+    ];

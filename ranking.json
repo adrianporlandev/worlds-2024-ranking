@@ -1,0 +1,560 @@
+[
+  {
+    "name": "TheShackledOne",
+    "tag": "003",
+    "realname": "Caps",
+    "team": "G2",
+    "role": "mid",
+    "region": "EUW",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1794,
+      "wins": 338,
+      "losses": 264,
+      "winrate": 56.14617940199336,
+      "totalGames": 602
+    },
+    "in_game": false
+  },
+  {
+    "name": "TheShackledOne",
+    "tag": "004",
+    "realname": "Hans Sama",
+    "team": "G2",
+    "role": "adc",
+    "region": "EUW",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1688,
+      "wins": 304,
+      "losses": 235,
+      "winrate": 56.400742115027825,
+      "totalGames": 539
+    },
+    "in_game": false
+  },
+  {
+    "name": "alvarooo",
+    "tag": "EUW",
+    "realname": "Alvaro",
+    "team": "MDK",
+    "role": "support",
+    "region": "EUW",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1448,
+      "wins": 363,
+      "losses": 305,
+      "winrate": 54.34131736526946,
+      "totalGames": 668
+    },
+    "in_game": false
+  },
+  {
+    "name": "tukaan",
+    "tag": "tukan",
+    "realname": "Supa",
+    "team": "MDK",
+    "role": "adc",
+    "region": "EUW",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1428,
+      "wins": 254,
+      "losses": 201,
+      "winrate": 55.824175824175825,
+      "totalGames": 455
+    },
+    "in_game": false
+  },
+  {
+    "name": "TheShackledOne",
+    "tag": "005",
+    "realname": "Mikyx",
+    "team": "G2",
+    "role": "support",
+    "region": "EUW",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1354,
+      "wins": 246,
+      "losses": 194,
+      "winrate": 55.90909090909091,
+      "totalGames": 440
+    },
+    "in_game": false
+  },
+  {
+    "name": "TheShackledOne",
+    "tag": "001",
+    "realname": "Broken Blade",
+    "team": "G2",
+    "role": "top",
+    "region": "EUW",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1309,
+      "wins": 267,
+      "losses": 214,
+      "winrate": 55.50935550935551,
+      "totalGames": 481
+    },
+    "in_game": false
+  },
+  {
+    "name": "Mametchi",
+    "tag": "tukan",
+    "realname": "Fresskowy",
+    "team": "MDK",
+    "role": "mid",
+    "region": "EUW",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1266,
+      "wins": 323,
+      "losses": 267,
+      "winrate": 54.74576271186441,
+      "totalGames": 590
+    },
+    "in_game": false
+  },
+  {
+    "name": "Wesley Warren Jr",
+    "tag": "EUW",
+    "realname": "Humanoid",
+    "team": "FNC",
+    "role": "mid",
+    "region": "EUW",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1255,
+      "wins": 348,
+      "losses": 298,
+      "winrate": 53.86996904024768,
+      "totalGames": 646
+    },
+    "in_game": false
+  },
+  {
+    "name": "TheShackledOne",
+    "tag": "002",
+    "realname": "Yike",
+    "team": "G2",
+    "role": "jungle",
+    "region": "EUW",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1206,
+      "wins": 300,
+      "losses": 248,
+      "winrate": 54.74452554744526,
+      "totalGames": 548
+    },
+    "in_game": false
+  },
+  {
+    "name": "komanche uchiha",
+    "tag": "elite",
+    "realname": "Elyoya",
+    "team": "MDK",
+    "role": "jungle",
+    "region": "EUW",
+    "elo": {
+      "tier": "CHALLENGER",
+      "rank": "I",
+      "leaguePoints": 1176,
+      "wins": 362,
+      "losses": 307,
+      "winrate": 54.11061285500748,
+      "totalGames": 669
+    },
+    "in_game": false
+  },
+  {
+    "name": "papi oscar",
+    "tag": "GOAT",
+    "realname": "Oscarinin",
+    "team": "FNC",
+    "role": "top",
+    "region": "EUW",
+    "elo": {
+      "tier": "GRANDMASTER",
+      "rank": "I",
+      "leaguePoints": 1163,
+      "wins": 376,
+      "losses": 326,
+      "winrate": 53.561253561253565,
+      "totalGames": 702
+    },
+    "in_game": false
+  },
+  {
+    "name": "Noah7",
+    "tag": "Euw2",
+    "realname": "Noah",
+    "team": "FNC",
+    "role": "adc",
+    "region": "EUW",
+    "elo": {
+      "tier": "GRANDMASTER",
+      "rank": "I",
+      "leaguePoints": 1113,
+      "wins": 283,
+      "losses": 240,
+      "winrate": 54.11089866156787,
+      "totalGames": 523
+    },
+    "in_game": false
+  },
+  {
+    "name": "Lamine Yamal",
+    "tag": "Annie",
+    "realname": "Myrwn",
+    "team": "MDK",
+    "role": "top",
+    "region": "EUW",
+    "elo": {
+      "tier": "GRANDMASTER",
+      "rank": "I",
+      "leaguePoints": 1084,
+      "wins": 149,
+      "losses": 110,
+      "winrate": 57.52895752895753,
+      "totalGames": 259
+    },
+    "in_game": false
+  },
+  {
+    "name": "Raz\u00f8rk Activoo",
+    "tag": "razzz",
+    "realname": "Razork",
+    "team": "FNC",
+    "role": "jungle",
+    "region": "EUW",
+    "elo": {
+      "tier": "GRANDMASTER",
+      "rank": "I",
+      "leaguePoints": 949,
+      "wins": 132,
+      "losses": 75,
+      "winrate": 63.76811594202898,
+      "totalGames": 207
+    },
+    "in_game": false
+  },
+  {
+    "name": "quid not quad",
+    "tag": "100",
+    "realname": "Quid",
+    "team": "100T",
+    "role": "mid",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 741,
+      "wins": 59,
+      "losses": 6,
+      "winrate": 90.76923076923077,
+      "totalGames": 65
+    },
+    "in_game": false
+  },
+  {
+    "name": "IHATEYOU",
+    "tag": "TL7",
+    "realname": "Yeon",
+    "team": "TL",
+    "role": "adc",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 480,
+      "wins": 46,
+      "losses": 4,
+      "winrate": 92.0,
+      "totalGames": 50
+    },
+    "in_game": false
+  },
+  {
+    "name": "TL El Debutante",
+    "tag": "mid",
+    "realname": "APA",
+    "team": "TL",
+    "role": "mid",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 462,
+      "wins": 46,
+      "losses": 5,
+      "winrate": 90.19607843137256,
+      "totalGames": 51
+    },
+    "in_game": false
+  },
+  {
+    "name": "QQQQQQQQ",
+    "tag": "NA3",
+    "realname": "River",
+    "team": "100T",
+    "role": "jungle",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 410,
+      "wins": 49,
+      "losses": 12,
+      "winrate": 80.32786885245902,
+      "totalGames": 61
+    },
+    "in_game": false
+  },
+  {
+    "name": "TL Honda CoreJJ",
+    "tag": "EUEU",
+    "realname": "CoreJJ",
+    "team": "TL",
+    "role": "support",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 409,
+      "wins": 43,
+      "losses": 3,
+      "winrate": 93.47826086956522,
+      "totalGames": 46
+    },
+    "in_game": false
+  },
+  {
+    "name": "100 Batman",
+    "tag": "Jaw",
+    "realname": "Sniper",
+    "team": "100T",
+    "role": "top",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 359,
+      "wins": 47,
+      "losses": 15,
+      "winrate": 75.80645161290323,
+      "totalGames": 62
+    },
+    "in_game": false
+  },
+  {
+    "name": "Shajara",
+    "tag": "3636",
+    "realname": "Massu",
+    "team": "FLY",
+    "role": "adc",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 285,
+      "wins": 42,
+      "losses": 11,
+      "winrate": 79.24528301886792,
+      "totalGames": 53
+    },
+    "in_game": false
+  },
+  {
+    "name": "massu fanboy9",
+    "tag": "ROTY",
+    "realname": "Tomo",
+    "team": "100T",
+    "role": "adc",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 228,
+      "wins": 46,
+      "losses": 25,
+      "winrate": 64.7887323943662,
+      "totalGames": 71
+    },
+    "in_game": false
+  },
+  {
+    "name": "Inspireeed",
+    "tag": "EUW",
+    "realname": "Inspired",
+    "team": "FLY",
+    "role": "jungle",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 201,
+      "wins": 49,
+      "losses": 22,
+      "winrate": 69.01408450704226,
+      "totalGames": 71
+    },
+    "in_game": false
+  },
+  {
+    "name": "TL APA",
+    "tag": "NOOB",
+    "realname": "Impact",
+    "team": "TL",
+    "role": "top",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 167,
+      "wins": 31,
+      "losses": 1,
+      "winrate": 96.875,
+      "totalGames": 32
+    },
+    "in_game": false
+  },
+  {
+    "name": "Mute ALL",
+    "tag": "APA",
+    "realname": "UmTi",
+    "team": "TL",
+    "role": "jungle",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 160,
+      "wins": 31,
+      "losses": 1,
+      "winrate": 96.875,
+      "totalGames": 32
+    },
+    "in_game": false
+  },
+  {
+    "name": "knight",
+    "tag": "BLG",
+    "realname": "knight",
+    "team": "BLG",
+    "role": "mid",
+    "region": "CN",
+    "elo": {
+      "tier": "BRONZE",
+      "rank": "I",
+      "leaguePoints": 77,
+      "wins": 8,
+      "losses": 6,
+      "winrate": 57.14285714285714,
+      "totalGames": 14
+    },
+    "in_game": false
+  },
+  {
+    "name": "qrds",
+    "tag": "211",
+    "realname": "Jun",
+    "team": "FNC",
+    "role": "support",
+    "region": "EUW",
+    "elo": {
+      "tier": "DIAMOND",
+      "rank": "I",
+      "leaguePoints": 75,
+      "wins": 79,
+      "losses": 37,
+      "winrate": 68.10344827586206,
+      "totalGames": 116
+    },
+    "in_game": false
+  },
+  {
+    "name": "Varian Wrynn",
+    "tag": "1810",
+    "realname": "Bwipo",
+    "team": "FLY",
+    "role": "top",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 74,
+      "wins": 31,
+      "losses": 4,
+      "winrate": 88.57142857142857,
+      "totalGames": 35
+    },
+    "in_game": false
+  },
+  {
+    "name": "wanderingTravelr",
+    "tag": "EUW",
+    "realname": "Eyla",
+    "team": "100T",
+    "role": "support",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 71,
+      "wins": 51,
+      "losses": 11,
+      "winrate": 82.25806451612904,
+      "totalGames": 62
+    },
+    "in_game": false
+  },
+  {
+    "name": "OG Mithy",
+    "tag": "Moo",
+    "realname": "Busio",
+    "team": "FLY",
+    "role": "support",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 37,
+      "wins": 29,
+      "losses": 4,
+      "winrate": 87.87878787878788,
+      "totalGames": 33
+    },
+    "in_game": false
+  },
+  {
+    "name": "FLY Quad",
+    "tag": "0310",
+    "realname": "Quad",
+    "team": "FLY",
+    "role": "mid",
+    "region": "NA",
+    "elo": {
+      "tier": "MASTER",
+      "rank": "I",
+      "leaguePoints": 26,
+      "wins": 28,
+      "losses": 3,
+      "winrate": 90.32258064516128,
+      "totalGames": 31
+    },
+    "in_game": false
+  }
+]

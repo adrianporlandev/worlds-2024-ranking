@@ -1,0 +1,66 @@
+---
+// Importa el layout
+import Layout from '../../layouts/Layout.astro';
+
+// Carga las variables de entorno
+import { config } from 'dotenv';
+config();
+
+// Obtén el parámetro de la URL
+const { team } = Astro.params;
+
+// Define la interfaz para el objeto jugador
+interface Player {
+  name: string;
+  realname: string;
+  role: string;
+  team: string;
+  elo: {
+    tier: string;
+    leaguePoints: number;
+  };
+}
+
+// Función para obtener los jugadores del equipo desde la API
+async function fetchPlayers(teamName: string): Promise<Player[]> {
+  const response = await fetch(import.meta.env.VITE_API_URL);
+  const players: Player[] = await response.json();
+  return players.filter(player => player.team.toLowerCase() === teamName.toLowerCase());
+}
+
+// Obtén los jugadores del equipo
+const players = await fetchPlayers(team as string);
+
+// Define y exporta la función getStaticPaths
+export async function getStaticPaths() {
+  const response = await fetch(import.meta.env.VITE_API_URL);
+  const players = await response.json();
+  const teams = [...new Set(players.map((player: Player) => player.team.toLowerCase()))];
+
+  return teams.map(team => ({
+    params: { team }
+  }));
+}
+---
+
+<Layout title={`Jugadores de ${(team as string).toUpperCase()}`}>
+  <main>
+    <section class="team-players py-12 md:py-24 lg:py-32 bg-gray-900">
+      <div class="container mx-auto px-4 md:px-6">
+        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white text-center mb-8">
+          Jugadores de {(team as string).toUpperCase()}
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {players.map(player => (
+            <div class="bg-gray-800 p-4 rounded-lg">
+              <h3 class="text-xl font-bold text-white">{player.realname}</h3>
+              <p class="text-gray-400">{player.role}</p>
+              <p class="text-gray-400">ELO: {player.elo.tier} {player.elo.leaguePoints} LP</p>
+              <a href={`/players/${player.realname.toLowerCase()}`} class="text-blue-500 hover:underline">Ver detalles</a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>

@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import Busqueda from '../components/Busqueda.astro';
+import Equipos from '../components/Equipos.astro';
+---
+
+<Layout title="LEC ELO Tracker">
+  <main>
+    <Busqueda />
+    <Equipos />
+  </main>
+</Layout>
+
+<style>
+  body {
+    background-color: #1a202c;
+  }
+</style>

@@ -1,0 +1,55 @@
+---
+// /pages/players/[realname].astro
+// Importa el layout
+import Layout from '../../layouts/Layout.astro';
+
+// Carga las variables de entorno
+import { config } from 'dotenv';
+config();
+
+
+// Obtén el parámetro de la URL
+const { realname } = Astro.params;
+
+// Función para obtener la información de un jugador desde la API
+async function fetchPlayer(realname: string) {
+  const response = await fetch(import.meta.env.VITE_API_URL);
+  const players = await response.json();
+  return players.find((player: any) => player.realname.toLowerCase() === realname.toLowerCase());
+}
+
+// Obtén la información del jugador
+const player = await fetchPlayer(realname as string);
+if (!player) {
+  throw new Error('Jugador no encontrado');
+}
+
+// Define y exporta la función getStaticPaths
+export async function getStaticPaths() {
+  const response = await fetch(import.meta.env.VITE_API_URL);
+  const players = await response.json();
+  const realnames = [...new Set(players.map((player: any) => player.realname.toLowerCase()))];
+
+  return realnames.map(realname => ({
+    params: { realname }
+  }));
+}
+---
+
+<Layout title={`Detalles de ${player.realname}`}>
+  <main>
+    <section class="player-details py-12 md:py-24 lg:py-32 bg-gray-900">
+      <div class="container mx-auto px-4 md:px-6">
+        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-white text-center mb-8">
+          Detalles de {player.realname}
+        </h2>
+        <div class="bg-gray-800 p-6 rounded-lg">
+          <h3 class="text-xl font-bold text-white">{player.realname}</h3>
+          <p class="text-gray-400">Equipo: {player.team}</p>
+          <p class="text-gray-400">Rol: {player.role}</p>
+          <p class="text-gray-400">ELO: {player.elo.tier} {player.elo.leaguePoints} LP</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</Layout>
