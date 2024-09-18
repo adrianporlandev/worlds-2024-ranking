@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const RankingTable = ({ ranking }) => {
-  const [sortConfig, setSortConfig] = useState({ key: null, direction: 'ascending' });
+  const [sortConfig] = useState({ key: null, direction: 'ascending' });
 
   const sortedRanking = [...ranking].sort((a, b) => {
     if (sortConfig.key) {

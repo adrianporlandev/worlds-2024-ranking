@@ -61,7 +61,7 @@ export default function SearchPlayer() {
   );
 }
 
-function Icon({ name, className }) {
+function Icon({className }) {
   // Ícono genérico de búsqueda con SVG
   return (
     <svg className={className} viewBox="0 0 20 20" fill="currentColor">
